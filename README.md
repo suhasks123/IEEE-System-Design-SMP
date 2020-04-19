@@ -1,7 +1,7 @@
 # System Design in Networks:
 
 This repository will be used to store:
-- Assignements
+- Assignments
 - Code
 - Resources
 
