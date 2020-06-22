@@ -1,7 +1,11 @@
-<h2>BitTorrent</h2><br>
+BitTorrent
+
+
 Sometimes downloading large files from websites can be really painful and slow especially when many people try to download at the same time. The website could crash too :/
+
 Unlike typical downloads, files using BitTorrent (similar to a peer to peer protocol) actually download faster when more people are involved and it works with any kind of file.
 Usually, when someone downloads a file from a normal website it comes to their computer in a stream from a single source and when multiple people want the file that single source can get overworked and can even shut down.
+
 BitTorrent solves this problem by making each downloader a source. In this way they get pieces of the file but also provide pieces to each other together the downloaders become a network of multiple sources all working to provide pieces to one another which makes downloads fast. To connect to other users who have the pieces of our file, BitTorrent uses a computer called a tracker that helps our computer find other computers called peers. 
 The tracker keeps track of computers that are downloading or already have the whole file and introduces our computer to them with the connections in place.
 Because of the presence of this central entity(tracker), BitTorrent is a hybrid P2P protocol.(There are 2 kinds of P2P protocol: pure P2P[any single, arbitrary chosen peer can be removed from the network without having the network suffering any loss of network service] and hybrid P2P[a central entity is necessary to provide parts of the offered network services])
